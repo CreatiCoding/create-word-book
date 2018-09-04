@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:key="DB_TABLE" android:defaultValue="1"/>
+    <EditTextPreference android:key="TEST_VALUE" android:defaultValue="1"/>
+    <CheckBoxPreference android:key="ISFIRST" android:defaultValue="false"/>
+</PreferenceScreen>

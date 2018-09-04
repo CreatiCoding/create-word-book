@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/default_border"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="100dp"
+        android:layout_height="54dp"
+        android:background="@drawable/default_border"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="001" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:background="@drawable/default_border"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:text="제목없음" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="100dp"
+        android:layout_height="54dp"
+        android:background="@drawable/default_border"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="0" />
+</LinearLayout>

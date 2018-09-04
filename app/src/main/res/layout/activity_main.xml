@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jsh.word.activity.MainActivity"
+    android:gravity="center">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dark_border"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@android:style/TextAppearance.Large"
+            android:layout_width="100dp"
+            android:layout_height="54dp"
+            android:background="@drawable/dark_border"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Index" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@android:style/TextAppearance.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:background="@drawable/dark_border"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@android:style/TextAppearance.Large"
+            android:layout_width="100dp"
+            android:layout_height="54dp"
+            android:background="@drawable/dark_border"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Cont." />
+    </LinearLayout>
+
+    <!--android:paddingBottom="8dp"
+    android:clipToPadding="false"
+    android:scrollbarStyle="outsideOverlay"-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clipToPadding="false"
+        android:paddingBottom="200dp"
+        android:scrollbarStyle="outsideOverlay"/>
+</LinearLayout>
+
